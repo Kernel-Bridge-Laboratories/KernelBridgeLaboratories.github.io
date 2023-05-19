@@ -1,0 +1,86 @@
+body {
+    margin: 0%;
+    font-family: monospace;
+    background-color: #af1f24;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 100vh;
+    }
+
+.kbl-logo {
+    font-size: 44pt;
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+
+}
+
+.mission{
+    text-align: center;
+    font-size: 22pt;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.vision {
+    text-align: center;
+    font-size: 22pt;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.research-areas {
+    text-align: center;
+    font-size: 18pt;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.areas-of-research-list {
+    font-size: 14pt;
+    list-style-type: none;
+    text-align: left;
+}
+
+.sf {
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.zur {
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.tko {
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.footer-buffer {
+    grid-column: 1 / 4;
+    grid-row: 6;
+    background-color: #28282D;
+}
+footer {
+    align-self: flex-end;
+    font-size: 8pt;
+    text-align: center;
+    grid-column: 1 / 4;
+    grid-row: 7;
+}
